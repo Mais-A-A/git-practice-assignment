@@ -51,7 +51,7 @@ Expected response (success):
 
 ================================================
 Other API Endpoints
-================================================س
+================================================
 
 GET  /supported-types  -> List all supported file types
 POST /upload           -> Upload a document file    
