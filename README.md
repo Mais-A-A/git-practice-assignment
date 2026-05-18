@@ -1,14 +1,10 @@
 Student Name: Mais Arafeh 
 Student ID: 221154
 
-================================================
 Design Pattern Used: Factory Method Pattern
-================================================
 
 
-================================================
 Project Structure
-================================================
  
 DocumentUploader.py         -> Abstract base class (Abstract Product)
 PDFUploader.py              -> Handles PDF files (Concrete Product)
@@ -19,9 +15,7 @@ DocumentUploaderFactory.py  -> Decides which uploader to use (Factory)
 main.py                     -> Flask REST API — entry point
 
 
-================================================
 How to Run
-================================================
  
 1. Install dependencies:
    pip install flask werkzeug
@@ -32,7 +26,6 @@ How to Run
 3. Server runs at:
    http://127.0.0.1:5000
 
-================================================
 
 Method   : POST
 URL      : http://127.0.0.1:5000/upload
@@ -49,14 +42,11 @@ Expected response (success):
 }
 
 
-================================================
 Other API Endpoints
-================================================
 
 GET  /supported-types  -> List all supported file types
 POST /upload           -> Upload a document file    
 
-================================================
 Supported File Types
 ================================================
  
